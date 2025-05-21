@@ -27,6 +27,7 @@ This project is designed to be run in Google Colab.
         *   `/content/gary-sandoz-0Q5d7Qe2Wko-unsplash.jpg`
         *   `/content/manja-vitolic-gKXKBY-C-Dk-unsplash.jpg`
         *   `/content/vander-films-aPvB8KMIh5w-unsplash.jpg`
+    *   The images can be found in the `/Image` directory
     *   Make sure these files exist in the specified location before running the code.
 
 3.  **Run the Notebook:**
@@ -46,8 +47,6 @@ The core components of the code are:
     *   Dense (fully connected) layers (`Dense`) for classification.
 -   **Model Compilation:** Configures the model with an optimizer (`adam`), a loss function (`sparse_categorical_crossentropy`), and metrics (`accuracy`).
 -   **Model Training:** Trains the model on the training data for a specified number of epochs.
--   **Model Evaluation (Optional - see suggested next steps):** Evaluates the trained model on the testing data to assess its performance.
--   **Prediction (Optional - see suggested next steps):** Uses the trained model to make predictions on new images.
 
 ## Dependencies
 
@@ -57,9 +56,6 @@ The project relies on the following Python libraries:
 -   `numpy`
 -   `sklearn` (specifically `sklearn.model_selection`)
 -   `PIL` (Pillow)
--   `os`
--   `IPython` (for notebook environment utilities)
--   `matplotlib` (suggested for visualization)
 
 These libraries are typically pre-installed in Google Colab.
 
